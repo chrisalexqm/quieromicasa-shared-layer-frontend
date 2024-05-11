@@ -1,7 +1,7 @@
 {
-  "name": "my-nuxt-layer",
+  "name": "@quieromicasa/quieromicasa-shared-layer",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.10",
   "main": "./nuxt.config.ts",
   "scripts": {
     "dev": "nuxi dev .playground",
@@ -13,13 +13,16 @@
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
-    "@nuxtjs/tailwindcss": "^6.11.4",
     "eslint": "^8.28.0",
     "nuxt": "^3.6.2",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.11.4",
     "nuxt-icon": "^0.6.10",
     "sass": "^1.72.0",
     "sass-loader": "^14.1.1",
-    "typescript": "^4.9.3",
-    "vuetify-nuxt-module": "^0.12.0"
+    "vuetify-nuxt-module": "^0.13.0"
   }
 }

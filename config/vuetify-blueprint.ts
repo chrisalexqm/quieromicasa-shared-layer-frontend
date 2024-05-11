@@ -1,35 +1,35 @@
 export const quieromicasa_blueprint = {
   defaults: {
     VAppBar: {
-      flat: true
+      flat: true,
     },
     VAutocomplete: {
-      variant: 'filled'
+      variant: "filled",
     },
     VBanner: {
-      color: 'primary'
+      color: "primary",
     },
     VBtn: {
-      color: 'primary',
-      variant: 'flat',
-      rounded: 'lg'
+      color: "primary",
+      variant: "flat",
+      rounded: "lg",
     },
     VBtnGroup: {
-      rounded: 'xl',
+      rounded: "xl",
       VBtn: {
-        rounded: null
-      }
+        rounded: null,
+      },
     },
     VCard: {
-      rounded: 'lg'
+      rounded: "lg",
     },
     VCheckbox: {
-      color: 'primary'
+      color: "primary",
     },
     VChip: {},
     VCombobox: {
-      variant: 'outlined',
-      color: 'primary'
+      variant: "outlined",
+      color: "primary",
     },
     VNavigationDrawer: {
       // VList: {
@@ -41,20 +41,20 @@ export const quieromicasa_blueprint = {
     },
     VBottomNavigation: {},
     VSelect: {
-      variant: 'filled'
+      variant: "filled",
     },
     VSlider: {
-      color: 'primary'
+      color: "primary",
     },
     VTabs: {
-      color: 'primary'
+      color: "primary",
     },
     VTextarea: {
-      color: 'primary'
+      color: "primary",
     },
     VTextField: {
-      color: 'primary'
-    }
+      color: "primary",
+    },
   },
   //   icons: {
   //     defaultSet: 'mdi',
@@ -66,16 +66,16 @@ export const quieromicasa_blueprint = {
     themes: {
       light: {
         colors: {
-          primary: '#4A6800',
-          secondary: '#121416',
-          tertiary: '#7d5260',
-          error: '#b3261e',
-          surface: '#F6F6F6',
-          'surface-container': '#efeee6',
-          'surface-container-high': '#eae8e1',
-          'secondary-container': '#caef86'
-        }
-      }
-    }
-  }
-}
+          primary: "#506527",
+          secondary: "#506528",
+          tertiary: "#236488",
+          error: "#ba1a1a",
+          surface: "#fafaee",
+          "surface-container": "#eeefe3",
+          "surface-container-high": "#e9e9dd",
+          "secondary-container": "#d2ec9f",
+        },
+      },
+    },
+  },
+};
